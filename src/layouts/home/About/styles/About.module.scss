@@ -1,0 +1,21 @@
+@import '../../../../design/index.scss';
+
+.section-margin {
+    margin-top: 300px;
+    @media (max-width: 920px) {
+      margin-top: 250px;
+    }
+    .description {
+      h2 {
+        color: $dark-blue;
+        @extend %font-heading;
+      }
+      p {
+        color: $gray;
+        text-align: right;
+        text-align: justify;
+        @extend %font-content;
+      }
+    }
+  
+  }

@@ -1,0 +1,67 @@
+@import '../../../../design/index.scss';
+
+.social-icon-two li {
+    display: inline-block;
+    a {
+      display: block;
+      transition: all 300ms ease;
+    }
+  }
+  
+  .main-footer {
+    background-image: url('https://opencollective.com/static/images/home/fiscalhost-blue-bg-md.png');
+    // background-color: $dark-blue;
+  }
+  
+.widget-title {
+    font-size: 1.5rem;
+    color: $dark-blue;
+    font-weight: 700;
+  }
+  .widget-content {
+    font-size: 1rem;
+    li {
+      padding: 0.5rem;
+    }
+    li a {
+      color: $dark-blue;
+    }
+  }
+
+ .logo {
+    width: 20%;
+    cursor: pointer;
+    transition: all 300ms ease;
+    z-index: 9999;
+  }
+  
+  .text {
+    color: $dark-blue;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .footer-bottom {
+   text-align: center;
+    border-top: 1px solid white;
+  }
+  
+  .copyright {
+    color:$dark-blue;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 767px) {
+   
+   .footer-upper {
+      padding: 70px 0 30px;
+    }
+    .footer-bottom {
+      padding: 20px 0 ;
+    }
+    .main-footer .footer-bottom .copyright,
+    .main-footer .footer-bottom .social-icon-two {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,27 @@
+
+@import '../design/index.scss';
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: white;
+    direction: rtl;
+    
+  }
+  .app{
+    overflow-x: hidden !important;
+    font-family: 'Samim';
+  }
+
+  .modal-content{
+    border:none !important;
+}
+
+.swiper-wrapper{
+  transition-duration: 10000ms !important;
+  transition-timing-function: linear !important;
+}

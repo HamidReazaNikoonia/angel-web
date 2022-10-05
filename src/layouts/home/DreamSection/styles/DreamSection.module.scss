@@ -1,0 +1,29 @@
+@import '../../../../design/index.scss';
+
+
+.sec-dream {
+    padding: $section-padding-lg;
+    @media(max-width:991px){
+      padding:$section-padding-sm;
+    }
+  }
+  .sec-title h2 {
+    @extend %font-heading;
+    color: $dark-blue;
+  }
+.sliderBtn{
+  svg{
+    cursor: pointer;
+  }
+}
+.more{
+  font-size: 1.1rem;
+  
+  font-weight: 700;
+ a{
+  color:darken($light-blue, 25px) !important;
+ }
+  &:hover{
+    color:lighten($dark-blue, 20px);
+  }
+}

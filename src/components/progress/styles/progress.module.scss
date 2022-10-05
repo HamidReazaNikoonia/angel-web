@@ -1,0 +1,39 @@
+@import '../../../design/index.scss';
+
+
+.progress-wrapper{
+  width: 100%;
+    .price{
+      @extend %font-content;
+      color:$yellow;
+      font-size: 12px;
+      font-weight: 600;
+      
+      .pay{
+        color:$dark-blue;
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+}
+.progress {
+    height: 7px;
+    direction: rtl;
+    width:50%;
+    background-color: lavender;
+    border-radius: 20px;
+   
+  }
+  
+  .progress-done {
+    direction: rtl;
+    height: 100%;
+    width: 0;
+    background:$dark-blue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: 1s ease;
+  }
